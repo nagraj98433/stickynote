@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 64px;
+}
+.input-group-text {
+  color: white;
+  background-color: #685e5e;
+  border: 1px solid #685e5e;
+}
+.header_search {
+  color: #fff;
+  background-color: #685e5e;
+  background-clip: padding-box;
+  border: 1px solid #685e5e;
+}
+.form-control::placeholder {
+  color: white;
+}
+.form-control:focus::placeholder {
+  color: black;
+}
